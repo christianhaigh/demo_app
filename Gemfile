@@ -17,8 +17,6 @@ gem 'uglifier', '2.1.1'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '4.0.1'
 
-# See https://github.com/sstephenson/execjs#readme for more supported runtimes
-# gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails', '3.0.4'
@@ -34,11 +32,10 @@ group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
 
-group :production do
+group :production do 
   gem 'pg', '0.15.1'
   gem 'rails_12factor', '0.0.2'
 end
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
